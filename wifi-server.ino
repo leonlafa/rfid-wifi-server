@@ -74,7 +74,7 @@ void setup(void) {
 
 void loop(void) {
   monitorMDNS();
-  monitorUUIDs();
+  monitorRFID();
 }
 
 void monitorMDNS() {
@@ -95,7 +95,7 @@ void handleNotFound() {
   digitalWrite(NOT_FOUND_LED, HIGH);
 }
 
-void monitorUUIDs() {
+void monitorRFID() {
   if (!mfrc522.PICC_IsNewCardPresent()) 
   {
     return;
