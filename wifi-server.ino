@@ -73,11 +73,11 @@ void setup(void) {
 }
 
 void loop(void) {
-  handleWIFI();
+  monitorMDNS();
   monitorUUIDs();
 }
 
-void handleWIFI() {
+void monitorMDNS() {
   server.handleClient();
   MDNS.update();
 }
