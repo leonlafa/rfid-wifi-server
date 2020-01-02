@@ -10,7 +10,7 @@
   
   Circuit:
   ESP8266 WIFI Module
-  MRFC522 RFID 125mHz Tag Reader
+  MRFC522 RFID 13.56 MHz Tag Reader
   <link to circuit diagram>
 
   Created 02/01/20
